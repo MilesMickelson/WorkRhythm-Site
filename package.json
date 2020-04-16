@@ -1,25 +1,25 @@
 {
-  "name": "project-name-here",
+  "name": "work-rhythm-app-website",
   "version": "1.0.0",
-  "description": "project description",
+  "description": "Website for a project wip",
   "main": "index.js",
   "scripts": {
     "serve": "parcel serve src/index.html",
     "dev": "cross-env NODE_ENV=development parcel build src/index.html --no-cache",
     "build": "cross-env NODE_ENV=production parcel build src/index.html",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b deployment -d dist"
+    "deploy": "gh-pages -b master -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "github-repo-here"
+    "url": "https://github.com/MilesMickelson/WorkRhythm.github.io"
   },
   "author": "Miles Mickelson",
   "license": "ISC",
   "bugs": {
-    "url": "https://github-repo-issues-page-here.com"
+    "url": "https://github.com/MilesMickelson/WorkRhythm.github.io/issues"
   },
-  "homepage": "https://custom-domain.com",
+  "homepage": "https://workrhythmapp.com",
   "postcss": {
     "modules": false,
     "plugins": {
