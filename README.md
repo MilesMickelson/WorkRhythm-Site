@@ -1,4 +1,4 @@
-# React w/Parcel & Sass 4 Page Website Scaffold
+# Work Rhythm App Website
 
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
