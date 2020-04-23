@@ -5,8 +5,9 @@ export default class Title extends React.Component {
     return (
       <div className='container-A'>
         <header className='container-B'>
-          <h1>Main Title</h1>
-          <h2>Sub Title</h2>
+          <h1>Work Rhythm</h1>
+          <hr id='title-break' />
+          <h2>Dont just spend time, use it</h2>
         </header>
       </div>
     );
