@@ -1,13 +1,16 @@
 import React from 'react';
 
-export default class Page2 extends React.Component {
+export default class Contact extends React.Component {
   render() {
     return (
       <div className='container-A'>
         <main className='container-B'>
-          <h3>Page2</h3>
+          <h3>Contact</h3>
           <section>
             <div className='center-wrap'>
+              <h4>Contact Info</h4>
+              <h4>Contact form</h4>
+              <h4>Content</h4>
               <h4>Content</h4>
             </div>
           </section>

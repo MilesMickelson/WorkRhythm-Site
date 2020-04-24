@@ -12,10 +12,11 @@ import Sticky from 'react-sticky-el';
 import Title from './components/title';
 import NavBar from './components/navbar';
 import ScrollToTop from './components/scrolltotop';
-import Page1 from './components/page1';
-import Page2 from './components/page2';
-import Page3 from './components/page3';
-import Page4 from './components/page4';
+import About from './components/about';
+import Info from './components/info';
+import Tips from './components/tips';
+import Features from './components/features';
+import Contact from './components/contact';
 import Footer from './components/footer';
 
 setConfig({
@@ -31,10 +32,11 @@ const App = () => {
       </Sticky>
       <Router>
         <ScrollToTop />
-        <Route exact path='/' component={ Page1 } />
-        <Route exact path='/Page2' component={ Page2 } />
-        <Route exact path='/Page3' component={ Page3 } />
-        <Route exact path='/Page4' component={ Page4 } />
+        <Route exact path='/' component={ About } />
+        <Route exact path='/Info' component={ Info } />
+        <Route exact path='/Tips' component={ Tips } />
+        <Route exact path='/Features' component={ Features } />
+        <Route exact path='/Contact' component={ Contact } />
       </Router>
       <Footer />
     </>
