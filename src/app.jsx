@@ -26,7 +26,7 @@ const App = () => {
   return (
     <>
       <Title />
-      <Sticky style={ { zIndex: '9999' } }>
+      {/* <Sticky style={ { zIndex: '9999' } }>
         <NavBar />
       </Sticky>
       <Router>
@@ -36,7 +36,7 @@ const App = () => {
         <Route exact path='/Page3' component={ Page3 } />
         <Route exact path='/Page4' component={ Page4 } />
       </Router>
-      <Footer />
+      <Footer /> */}
     </>
   );
 };

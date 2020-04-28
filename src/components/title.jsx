@@ -5,8 +5,7 @@ export default class Title extends React.Component {
     return (
       <div className='container-A'>
         <header className='container-B'>
-          <h1>Main Title</h1>
-          <h2>Sub Title</h2>
+          <h1>App Content and Info coming soon!</h1>
         </header>
       </div>
     );
